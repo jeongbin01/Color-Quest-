@@ -1,6 +1,7 @@
 # Color Quest
 
-**Color Quest**는 색상 조정을 통해 목표 색상에 얼마나 가까워질 수 있는지를 겨루는 재미있는 게임입니다. 사용자는 다양한 색상 도구를 활용하여 목표 색상과 일치시키는 도전에 나서며, 점수를 통해 자신의 성과를 측정합니다.
+ 색상 조정을 통해 목표 색상에 얼마나 가까워질 수 있는지를 겨루는 재미있는 게임입니다.<br> 
+ 사용자는 다양한 색상 도구를 활용하여 목표 색상과 일치시키는 도전에 나서며, 점수를 통해 자신의 성과를 측정합니다.
 
 ## 프로젝트 개요
 
@@ -16,7 +17,8 @@ Color Quest는 색상 조정과 색상 혼합을 통해 시각적 인식을 향�
 - **힌트 제공**: 색상 차이에 따른 힌트를 통해 목표 색상에 가까워지도록 돕습니다.
 
 ## 기술 스택
-
-- **HTML**: 웹 페이지의 구조를 정의합니다.
-- **CSS**: 스타일과 디자인을 적용하여 사용자 경험을 개선합니다.
-- **JavaScript**: 게임의 로직과 상호작용을 구현합니다.
+<!-- HTML, CSS, JavaScript, React 기술 스택 배지 -->
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Badge">
