@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Quest</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Color Quest</h1> 
+        </header>
+        <main>
+            <div class="color-display">
+                <div id="color-box" role="img" aria-label="현재 색상"></div> <!-- 현재 색상을 배경색으로 표시하는 박스 -->
+                <p>현재 색상: <span id="color-value">#FFFFFF</span></p> <!-- 현재 색상의 HEX 값을 표시 -->
+            </div>
+            <div class="game-controls">
+                <!-- 게임 조작 버튼 -->
+                <button id="btn-quest" aria-label="새로운 퀘스트 시작">새로운 퀘스트</button> <!-- 새로운 퀘스트 시작 버튼 -->
+                <button id="btn-mix" aria-label="현재 색상과 혼합">색상 혼합</button> <!-- 현재 색상과 랜덤 색상을 혼합하는 버튼 -->
+                <button id="btn-invert" aria-label="현재 색상 반전">색상 반전</button> <!-- 현재 색상을 반전시키는 버튼 -->
+            </div>
+            <div class="color-sliders">
+                <!-- 색상 조정을 위한 슬라이더들 -->
+                <input type="range" id="red-slider" min="0" max="255" value="255" aria-label="Red component"> <!-- 빨간색 슬라이더 -->
+                <input type="range" id="green-slider" min="0" max="255" value="255" aria-label="Green component"> <!-- 초록색 슬라이더 -->
+                <input type="range" id="blue-slider" min="0" max="255" value="255" aria-label="Blue component"> <!-- 파란색 슬라이더 -->
+            </div>
+            <div class="quest-info">
+                <h2>현재 퀘스트</h2> 
+                <p id="quest-description">새로운 퀘스트를 시작하세요!</p> <!-- 현재 퀘스트에 대한 설명 -->
+                <p id="hint">힌트: 색상에 가까워지세요!</p> <!-- 퀘스트에 힌트 -->
+            </div>
+            <div class="score-board">
+                <p>점수: <span id="score">0</span></p> <!-- 현재 점수를 표시 -->
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
