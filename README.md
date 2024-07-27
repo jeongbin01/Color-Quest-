@@ -5,7 +5,8 @@
 ## 프로젝트 개요
 사용자가 다양한 색상 조정 기능을 활용하여 목표 색상에 가까워지도록 도전하는 게임입니다.<br>
 이 게임을 통해 사용자는 색상 조정의 기본 원리를 배우고, 자신의 색상 감각을 향상시킬 수 있습니다.<br>
-<a file:///C:/Users/bin14/project/Color_Flipper/index.html>링크</a>
+<a href="file:///C:/Users/bin14/project/Color_Flipper/index.html">링크</a>
+
 
 ## 주요 기능
 - **랜덤 목표 색상 생성**: 매 라운드마다 새로운 목표 색상이 설정됩니다.
