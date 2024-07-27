@@ -6,7 +6,6 @@
 사용자가 다양한 색상 조정 기능을 활용하여 목표 색상에 가까워지도록 도전하는 게임입니다.<br>
 이 게임을 통해 사용자는 색상 조정의 기본 원리를 배우고, 자신의 색상 감각을 향상시킬 수 있습니다.<br>
 <body>
-    <h1>Welcome to Color Flipper</h1>
     <a href="https://myusername.github.io/Color_Flipper/index.html">링크</a>
 </body>
 
